@@ -3,6 +3,8 @@
 #include "Adafruit_GFX.h"
 #include <ClickEncoder.h>
 #include <TimerOne.h>
+#include <avr/sleep.h>
+#include <avr/power.h>
 
 // Set up our LED display
 Adafruit_AlphaNum4 alpha4 = Adafruit_AlphaNum4();
